@@ -5,12 +5,12 @@ class Snowboard {
     private String name;
     private String brand;
     private Float price;
-    private Integer rating;
+    private Float rating;
     private String imageURL;
 
     public Snowboard(){}
 
-    public Snowboard(Integer idVal, String nameVal, String brandVal, Float priceVal, Integer ratingVal, String imageURLVal){
+    public Snowboard(Integer idVal, String nameVal, String brandVal, Float priceVal, Float ratingVal, String imageURLVal){
         this.id = idVal;
         this.name = nameVal;
         this.price = priceVal;
@@ -37,7 +37,7 @@ class Snowboard {
     {
         return price;
     }
-    public Integer getRating()
+    public Float getRating()
     {
         return rating;
     }
@@ -63,7 +63,7 @@ class Snowboard {
         this.price = price;
     }
 
-    public void setRating(Integer rating) {
+    public void setRating(Float rating) {
         this.rating = rating;
     }
 

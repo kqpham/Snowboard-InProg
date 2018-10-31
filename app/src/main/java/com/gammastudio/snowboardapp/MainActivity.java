@@ -15,6 +15,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+
+    private Snowboard SB;
+    private Boot boot;
+    private Bindings bindings;
+    private Goggle goggle;
+    private Helmit helmit;
 
     private FloatingActionButton addNewSetButton;
     @Override
@@ -78,4 +86,118 @@ public class MainActivity extends AppCompatActivity {
 //
 //    // By using setAdapter method, you plugged the ListView with adapter
 //        alphaListView.setAdapter(arrayAdapter);
+
+
+
+    //Getting the values from the json and setting
+
+    public void json(){
+        String jsonStr;
+
+        try {
+            InputStream is = getAssets().open("items.json");
+            int size =  is.available();
+            byte[] buffer = new byte[size];
+
+            is.read(buffer);
+            is.close();
+            jsonStr = new String(buffer,"UTF-8");
+
+            JSONObject jsonObj = new JSONObject(jsonStr);
+
+            // Getting JSON Array node
+            JSONArray snowboards = jsonObj.getJSONArray("snowboards");
+
+
+            for(int i = 0; i < snowboards.length() ; i++){
+
+                JSONObject s = snowboards.getJSONObject(i);
+
+                String id = s.getString("id");
+                String name = s.getString("name");
+                String brand = s.getString("brand");
+                String price = s.getString("price");
+                String rating = s.getString("rating");
+                String image = s.getString("image");
+
+                SB = new Snowboard(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+            }
+
+            JSONArray Boot = jsonObj.getJSONArray("boots");
+
+            for(int i = 0; i < Boot.length() ; i++){
+
+                JSONObject s = Boot.getJSONObject(i);
+
+                String id = s.getString("id");
+                String name = s.getString("name");
+                String brand = s.getString("brand");
+                String price = s.getString("price");
+                String rating = s.getString("rating");
+                String image = s.getString("image");
+
+                boot = new Boot(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+            }
+
+            JSONArray bind = jsonObj.getJSONArray("bindings");
+
+            for(int i = 0; i < bind.length() ; i++){
+
+                JSONObject s = bind.getJSONObject(i);
+
+                String id = s.getString("id");
+                String name = s.getString("name");
+                String brand = s.getString("brand");
+                String price = s.getString("price");
+                String rating = s.getString("rating");
+                String image = s.getString("image");
+
+                bindings = new Bindings(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+            }
+
+            JSONArray GOGGLE = jsonObj.getJSONArray("goggles");
+
+            for(int i = 0; i < GOGGLE.length() ; i++){
+
+                JSONObject s = GOGGLE.getJSONObject(i);
+
+                String id = s.getString("id");
+                String name = s.getString("name");
+                String brand = s.getString("brand");
+                String price = s.getString("price");
+                String rating = s.getString("rating");
+                String image = s.getString("image");
+
+                goggle = new Goggle(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+            }
+
+            JSONArray helmets = jsonObj.getJSONArray("helmets");
+
+            for(int i = 0; i < helmets.length() ; i++){
+
+                JSONObject s = helmets.getJSONObject(i);
+
+                String id = s.getString("id");
+                String name = s.getString("name");
+                String brand = s.getString("brand");
+                String price = s.getString("price");
+                String rating = s.getString("rating");
+                String image = s.getString("image");
+
+                helmit = new Helmit(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+            }
+
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }catch(JSONException e){
+            e.printStackTrace();
+        }
+    }
 }
