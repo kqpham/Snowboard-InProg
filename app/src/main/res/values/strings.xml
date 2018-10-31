@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SnowboardApp</string>
+    <string name="set_list">Gear Sets List</string>
+    <string name="gear_set_name">Gear Set</string>
+    <string name="new_set_creation">New Set Creation</string>
+    <string name="set_name">Set Name</string>
+    <string name="field_required">Field is required</string>
+    <string name="set_budget">Total budget amount</string>
+    <string name="equip_pref">Equipment Preference</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="apparel_info">Apparel Information</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="shirt_size">Shirt Size</string>
+    <string name="pant_size_width">Pant Size Width</string>
+    <string name="pant_size_length">Pant Size Length</string>
+    <string name="glove_size">Glove Size</string>
+    <string name="select_equipment">Select Equipment ></string>
+    <string name="back">Back</string>
+    <string name="title_activity_gear_select">gearSelect</string>
+    <string name="choice_prompt">Select a choice</string>
+    <string name="item_names">ItemName</string>
+    <string name="item_price">$</string>
+</resources>

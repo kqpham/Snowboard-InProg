@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/spinnerImage"
+        android:src = "@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_name"
+        android:layout_toRightOf="@+id/spinnerImage"
+        android:textColor="#000"
+        android:text="@string/item_names"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_price"
+        android:text = "@string/item_price"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
