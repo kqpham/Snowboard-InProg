@@ -36,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
     private Goggle goggle;
     private Helmit helmit;
 
+    public Object[][] snowboard_arr;
+    public Object[][] boot_arr;
+    public Object[][] bindings_arr;
+    public Object[][] goggle_arr;
+    public Object[][]helmet_arr;
+
     private FloatingActionButton addNewSetButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,6 +128,15 @@ public class MainActivity extends AppCompatActivity {
 
                 SB = new Snowboard(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
 
+
+                snowboard_arr[i][0] = id;
+                snowboard_arr[i][1] = name;
+                snowboard_arr[i][2] = brand;
+                snowboard_arr[i][3] = price;
+                snowboard_arr[i][4] = rating;
+                snowboard_arr[i][5] = image;
+
+
             }
 
             JSONArray Boot = jsonObj.getJSONArray("boots");
@@ -138,6 +153,13 @@ public class MainActivity extends AppCompatActivity {
                 String image = s.getString("image");
 
                 boot = new Boot(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+                boot_arr[i][0] = id;
+                boot_arr[i][1] = name;
+                boot_arr[i][2] = brand;
+                boot_arr[i][3] = price;
+                boot_arr[i][4] = rating;
+                boot_arr[i][5] = image;
 
             }
 
@@ -156,6 +178,13 @@ public class MainActivity extends AppCompatActivity {
 
                 bindings = new Bindings(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
 
+                bindings_arr[i][0] = id;
+                bindings_arr[i][1] = name;
+                bindings_arr[i][2] = brand;
+                bindings_arr[i][3] = price;
+                bindings_arr[i][4] = rating;
+                bindings_arr[i][5] = image;
+
             }
 
             JSONArray GOGGLE = jsonObj.getJSONArray("goggles");
@@ -173,6 +202,13 @@ public class MainActivity extends AppCompatActivity {
 
                 goggle = new Goggle(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
 
+                goggle_arr[i][0] = id;
+                goggle_arr[i][1] = name;
+                goggle_arr[i][2] = brand;
+                goggle_arr[i][3] = price;
+                goggle_arr[i][4] = rating;
+                goggle_arr[i][5] = image;
+
             }
 
             JSONArray helmets = jsonObj.getJSONArray("helmets");
@@ -189,6 +225,13 @@ public class MainActivity extends AppCompatActivity {
                 String image = s.getString("image");
 
                 helmit = new Helmit(Integer.parseInt(id), name, brand, Float.parseFloat(price) ,Float.parseFloat(rating), image );
+
+                helmet_arr[i][0] = id;
+                helmet_arr[i][1] = name;
+                helmet_arr[i][2] = brand;
+                helmet_arr[i][3] = price;
+                helmet_arr[i][4] = rating;
+                helmet_arr[i][5] = image;
 
             }
 
