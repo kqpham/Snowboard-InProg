@@ -1,0 +1,520 @@
+{
+  "snowboards" : [
+    {
+      "id": 1,
+      "name": "Neo Slasher",
+      "brand": "CAPiTA",
+      "price": "899.95",
+      "rating": 4,
+      "image": "https://cdn.shopify.com/s/files/1/2803/9476/products/NEOSlasher-154_550x825.png"
+    },
+    {
+      "id": 2,
+      "name": "Indoor Survival",
+      "brand": "CAPiTA",
+      "price": "489.95",
+      "rating": 5,
+      "image": "https://cdn.shopify.com/s/files/1/2803/9476/products/Indoor-150_550x825.png"
+    },
+    {
+      "id": 3,
+      "name": "Spring Break Slush Slasher",
+      "brand": "CAPiTA",
+      "price": "429.95",
+      "rating": 1,
+      "image": "https://cdn.shopify.com/s/files/1/2803/9476/products/SB-Slush-143_550x825.png"
+    },
+    {
+      "id": 4,
+      "name": "Snowtrooper",
+      "brand": "Never Summer",
+      "price": "519.99",
+      "rating": 4,
+      "image": "http://www.neversummer.com/_photos/products/snowboards/snowtrooper/Snowtrooper_19M.png"
+    },
+    {
+      "id": 5,
+      "name": "Swift Split",
+      "brand": "Never Summer",
+      "price": "1039.99",
+      "rating": 1,
+      "image": "http://www.neversummer.com/_photos/products/snowboards/Prospector/SwiftSplit_19M2.png"
+    },
+    {
+      "id": 6,
+      "name": "Heritage",
+      "brand": "Never Summer",
+      "price": "569.99",
+      "rating": 2,
+      "image": "http://www.neversummer.com/_photos/products/snowboards/onyx/Heritage_19M.png"
+    },
+    {
+      "id": 8,
+      "name": "Bryan Iguchi Pro Camber",
+      "brand": "Arbor Collective",
+      "price": "599.99",
+      "rating": 5,
+      "image": "https://www.arborcollective.com/us/media/catalog/product/cache/image/910x1086/e9c3970ab036de70892d86c6d221abfe/a/r/arborsnowboards_2019_iguchiprocamber_1_hero.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cask",
+      "brand": "Arbor Collective",
+      "price": "499.99",
+      "rating": 5,
+      "image": "https://www.arborcollective.com/us/media/catalog/product/cache/image/910x1086/e9c3970ab036de70892d86c6d221abfe/a/r/arborsnowboards_2019_cask_1_hero.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Swoon Rocker",
+      "brand": "Arbor Collective",
+      "price": "449.99",
+      "rating": 4,
+      "image": "https://www.arborcollective.com/us/media/catalog/product/cache/image/910x1086/e9c3970ab036de70892d86c6d221abfe/a/r/arborsnowboards_2019_swoon_rocker_1_hero.jpg"
+    },
+    {
+      "id": 11,
+      "name": "T.Rice Climax",
+      "brand": "Lib Tech",
+      "price": "969.95",
+      "rating": 1,
+      "image": "https://www.lib-tech.com/media/catalog/product/cache/c9e0b0ef589f3508e5ba515cde53c5ff/2/0/2018-2019-Lib-Tech-Travis-Rice-Climax-Snowboard.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ejack Knife",
+      "brand": "Lib Tech",
+      "price": "599.95",
+      "rating": 3,
+      "image": "https://www.lib-tech.com/media/catalog/product/cache/c9e0b0ef589f3508e5ba515cde53c5ff/2/0/2018-2019-Lib-Tech-Ejack-Knife-Snowboard.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Doughboy Shredder",
+      "brand": "Lib Tech",
+      "price": "449.99",
+      "rating": 4,
+      "image": "https://www.lib-tech.com/media/catalog/product/cache/c9e0b0ef589f3508e5ba515cde53c5ff/2/0/2018-2019-Lib-Tech-Dough-Boy-Snowboard.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Mountain Division",
+      "brand": "Rome",
+      "price": "549.99",
+      "rating": 4,
+      "image": "http://www.romesnowboards.com/i19/boards/mountain-division/164w-z.jpg"
+    },
+    {
+      "id": 15,
+      "name": "National Bjorn",
+      "brand": "Rome",
+      "price": "599.99",
+      "rating": 5,
+      "image": "http://www.romesnowboards.com/i19/boards/national-bjorn/158.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Model No. 2",
+      "brand": "Rome",
+      "price": "449.99",
+      "rating": 4,
+      "image": "http://www.romesnowboards.com/i19/boards/model-no-2/155.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Deep Thinker",
+      "brand": "Burton",
+      "price": "699.99",
+      "rating": 4,
+      "image": "https://www.burton.com/static/product/W19/17200102000154_1.png"
+    },
+    {
+      "id": 18,
+      "name": "Skeleton Key",
+      "brand": "Burton",
+      "price": "599.99",
+      "rating": 3,
+      "image": "https://www.burton.com/static/product/W19/17983102000150_1.png"
+    },
+    {
+      "id": 19,
+      "name": "Family Tree Mystery Fish",
+      "brand": "Burton",
+      "price": "2199.99",
+      "rating": 5,
+      "image": "https://www.burton.com/static/product/W19/10710105000151_1.png"
+    }
+  ],
+  "boots": [
+    {
+      "id": 1,
+      "name": "Moto Boa Black",
+      "brand": "Burton",
+      "price": "279.99",
+      "rating": 5,
+      "image": "https://www.burton.com/static/product/W18/13176103001_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Data",
+      "brand": "K2",
+      "price": "149.99",
+      "rating": 3,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332625592_99_a"
+    },
+    {
+      "id": 3,
+      "name": "Raider Boa",
+      "brand": "K2",
+      "price": "239.99",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332625575_30_a"
+    },
+    {
+      "id": 4,
+      "name": "Ryker",
+      "brand": "K2",
+      "price": "299.99",
+      "rating": 3,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/332352658_01_a-K2-Ryker-Mens-Snowboard-Boots-2017-18-Black-B170300702"
+    },
+    {
+      "id": 5,
+      "name": "Transfer",
+      "brand": "Burton",
+      "price": "169.99",
+      "rating": 4,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/332352730_01_a-Burton-Transfer-Black-Mens-Snowboard-Boots-2017-18-17921101060"
+    },
+    {
+      "id": 6,
+      "name": "Judge BOA",
+      "brand": "DC",
+      "price": "265.99",
+      "rating": 5,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/332344083_99_a-DC-Judge-BOA-Snowboard-Boot-17-18-Army-Green-ADYO100025-ARM"
+    },
+    {
+      "id": 7,
+      "name": "Scout",
+      "brand": "DC",
+      "price": "160.99",
+      "rating": 3,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/332344063_99_a-DC-Scout-BOA-Snowboard-Boot-17-18-Black-White-ADYO100027-BKW"
+    },
+    {
+      "id": 8,
+      "name": "Anthem BOA",
+      "brand": "Ride",
+      "price": "175.99",
+      "rating": 3,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/332352152_57_a"
+    },
+    {
+      "id": 9,
+      "name": "Riot BOA",
+      "brand": "Ride",
+      "price": "219.99",
+      "rating": 5,
+      "image": "http://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332623949_99_a"
+    },
+    {
+      "id": 10,
+      "name": "Ruler BOA",
+      "brand": "Burton",
+      "price": "349.99",
+      "rating": 5,
+      "image": "http//fgl.scene7.com/is/image/FGLSportsLtd/FGL_332625088_01_a"
+    }
+  ],
+  "bindings": [
+    {
+      "id": 1,
+      "name": "RIDE Rodeo",
+      "brand": "RIDE",
+      "price": "167.67",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332116410_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 2,
+      "name": "Burtons Citizen",
+      "brand": "Burton",
+      "price": "189.99",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332353131_01_a-Burton-Citizen-Black-Womens-Snowboard-Bindings-2017-18-10540104001?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 3,
+      "name": "RIDE VXN",
+      "brand": "RIDE",
+      "price": "160.97",
+      "rating": 5,
+      "image": "http//fgl.scene7.com/is/image/FGLSportsLtd/FGL_332625088_01_a"
+    },
+    {
+      "id": 4,
+      "name": "Burton Scribe",
+      "brand": "Burton",
+      "price": "173.97",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332134485_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 5,
+      "name": "Burton Citizen",
+      "brand": "Burton",
+      "price": "107.97",
+      "rating": 4.5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331842968_01_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 6,
+      "name": "Burton Freestyle",
+      "brand": "Burton",
+      "price": "189.99",
+      "rating": 4,
+      "image": "http//fgl.scene7.com/is/image/FGLSportsLtd/FGL_332625088_01_a"
+    },
+    {
+      "id": 7,
+      "name": "Guru Grey",
+      "brand": "Burton",
+      "price": "129.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332353582_04_a-Burton-Guru-Grey-Mens-Snowboard-Binding-2017-18-19759100061?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 8,
+      "name": "Sonic",
+      "brand": "K2",
+      "price": "118.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332352808_01_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 9,
+      "name": "A5.1",
+      "brand": "Firefly",
+      "price": "76.97",
+      "rating": 1.5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331601196_99_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    },
+    {
+      "id": 10,
+      "name": "LX",
+      "brand": "RIDE",
+      "price": "125.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332352956_01_a?wid=288&hei=288&op_sharpen=1&resMode=sharp2"
+    }
+
+  ],
+  "helmets": [
+    {
+      "id": 1,
+      "name": "Scout Helmet",
+      "brand": "anon",
+      "price": "53.97",
+      "rating": 1,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331854008_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 2,
+      "name": "Allure Metallic Pepper Helmet",
+      "brand": "Smith",
+      "price": "55.88",
+      "rating": 2,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331868046_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 3,
+      "name": "Raider Black Helmet",
+      "brand": "anon",
+      "price": "63.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331622949_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 4,
+      "name": "Montane Snow Helmet 2013",
+      "brand": "Giro",
+      "price": "71.88",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331227114_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 5,
+      "name": "Blitz Blue Helmet",
+      "brand": "anon",
+      "price": "83.97",
+      "rating": 1,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332135344_40_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 6,
+      "name": "Mentor LF Blue Helmet",
+      "brand": "Atomic",
+      "price": "99.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332147385_40_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 7,
+      "name": "Rival Green Helmet",
+      "brand": "K2",
+      "price": "103.97",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331618211_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 8,
+      "name": "Vantage Men's Helmet",
+      "brand": "Smith",
+      "price": "107.88",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331613745_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 9,
+      "name": "Block Helmet",
+      "brand": "Capix",
+      "price": "119.99",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332619229_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 10,
+      "name": "Venom Helmet",
+      "brand": "Salomon",
+      "price": "119.99",
+      "rating": 2,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_331875322_40_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 11,
+      "name": "Union MIPS Matte Turbulence Helmet",
+      "brand": "Giro",
+      "price": "153.97",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332139503_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 12,
+      "name": "MOD 5 Matte Red Snow Helmet",
+      "brand": "Oakley",
+      "price": "167.97",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332135675_60_a?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    },
+    {
+      "id": 13,
+      "name": "MOD 3 MIPS Blackout Helmet",
+      "brand": "Oakley",
+      "price": "219.99",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332613449_01_a-Oakley-MOD3-MIPS-Ski-Snowboard-Helmet-2018-19-Blackout-99474MP-02E?bgColor=0,0,0,0&fmt=png-alpha&hei=520&resMode=sharp2&op_sharpen=1"
+    }
+  ],
+  "goggles": [
+    {
+      "id": 1,
+      "name": "A-Frame 2.0 Ski & Snowboard Goggles 2018/19",
+      "brand": "Oakley",
+      "price": "194.99",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332616420_99_a-Oakley-A-Frame-2-0-Ski-Snowboard-Goggles-2018-19-Jet-Black-with-Prizm-Torch-Iridium-Lens-OO7044-49?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 2,
+      "name": "Fade Photochromatic Ski & Snowboard Goggles - 2018/19",
+      "brand": "Capix",
+      "price": "59.98",
+      "rating": 2,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332619060_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 3,
+      "name": "Freeze Ski & Snowboard Goggles 2018/19",
+      "brand": "Bolle",
+      "price": "39.99",
+      "rating": 1,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_332634832_01_a-Bolle-Freeze-Ski-Snowboard-Goggles-2018-19-Matte-Black-with-Clear-Lens-21800?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }, {
+      "id": 4,
+      "name": "One Men's Ski & Snowboard Goggle 2017/18",
+      "brand": "Capix",
+      "price": "109.99",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332360770_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }, {
+      "id": 5,
+      "name": "Vantage Goggle 2017/18",
+      "brand": "Capix",
+      "price": "79.99",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331837583_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }, {
+      "id": 6,
+      "name": "Electra Pro Air Ski & Snowboard Goggles 2017/18",
+      "brand": "Smith",
+      "price": "49.99",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/331219045_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 7,
+      "name": "Cascade Classic Black Ski Goggles 2017/18",
+      "brand": "Smith",
+      "price": "39.99",
+      "rating": 4,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332133793_01_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 8,
+      "name": "Performance Ski & Snowboard Goggles 2017/18",
+      "brand": "SCOTT",
+      "price": "44.99",
+      "rating": 1,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/330883855_99_a?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }, {
+      "id": 9,
+      "name": "Unlimited II OTG Ski & Snowboard Goggles 2017/18",
+      "brand": "SCOTT",
+      "price": "99.99",
+      "rating": 2,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332368586_01_a-Scott-Unlimited-II-OTG-Ski-Snowboard-Goggles-2017-18-Black-21-01-11-0408?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 10,
+      "name": "Ace Ski & Snowboard Goggle 2017/18",
+      "brand": "Spy",
+      "price": "179.99",
+      "rating": 2,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332357248_04_a-Spy-Ace-Ski-Snowboard-Goggle-2017-18-Deep-Winter-Gray-310071044437?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 11,
+      "name": "Marshall Ski & Snowboard Goggle 2017/18",
+      "brand": "Spy ",
+      "price": "189.99",
+      "rating": 5,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332357226_10_a-Spy-Marshall-Ski-Snowboard-Goggle-2017-18-Essential-White-313013142621?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }, {
+      "id": 12,
+      "name": "Relapse Men's Black Ski & Snowboard Goggles 2017/18",
+      "brand": "Anon",
+      "price": "119.97",
+      "rating": 1,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332350410_01_a-Anon-Relapse-Mens-Black-Ski-Snowboard-Goggles?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    },
+    {
+      "id": 13,
+      "name": "Relapse MFI MPI Men's Blue Ski & Snowboard Goggles 2017/18",
+      "brand": "Anon",
+      "price": "149.97",
+      "rating": 3,
+      "image": "https://fgl.scene7.com/is/image/FGLSportsLtd/332350418_40_a-Anon-Relapse-MFI-MPI-Mens-Blue-Ski-Snowboard-Goggles?bgColor=0,0,0,0&fmt=png-alpha&hei=246&resMode=sharp2&qlt=85,1"
+    }
+  ]
+}

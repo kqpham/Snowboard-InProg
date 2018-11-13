@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gearSelect">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:id="@+id/snowboardLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98B8F1"
+            android:onClick="clickBoard"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/snowboardImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/board" />
+
+            <TextView
+                android:id="@+id/snowboardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/boardButton"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/snowboardPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/boardPrice"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/boardSelectLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="horizontal">
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/boardView"
+                android:orientation="horizontal"
+                >
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/goggleLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98B8F1"
+            android:onClick="clickGoggle"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goggleImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/goggle" />
+
+            <TextView
+                android:id="@+id/goggleName"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/goggleButton"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/gogglePrice"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/gogglePrice"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/goggleSelectLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/goggleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bindingLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98B8F1"
+            android:onClick="clickBinding"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bindingImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/binding" />
+
+            <TextView
+                android:id="@+id/bindingName"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/bindingButton"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bindingPrice"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/bindingPrice"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bindingSelectLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/bindingView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/helmetLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98B8F1"
+            android:onClick="clickHelmet"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/helmetImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/helmet" />
+
+            <TextView
+                android:id="@+id/helmetName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:text="@string/helmetButton"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/helmetPrice"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/helmetPrice"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/helmetSelectLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/helmetView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bootLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#98B8F1"
+            android:onClick="clickBoot"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bootImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/boot" />
+
+            <TextView
+                android:id="@+id/bootName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:text="@string/bootButton"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bootPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:text="@string/bootPrice"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bootSelectLayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/bootView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
